@@ -8,7 +8,3 @@ def get_reglist(file_handle):
 
 regs = get_reglist(open(sys.argv[1], "r"))
 print(regs)
-
-
-
-
